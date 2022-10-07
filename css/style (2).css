@@ -1,0 +1,288 @@
+/* General */
+@font-face {
+    font-family: "PoliceIUT";
+    src: url('../font/font.ttf');
+}
+
+@font-face {
+    font-family: "PoliceIUT2";
+    src: url('../font/font2.otf');
+}
+
+.row {
+    padding: 3%;
+}
+
+.col-lg-12,
+.col-md-6 {
+    margin: 0 auto
+}
+
+h1 {
+    margin: 0 auto;
+    /*color: #343a40;*/
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "PoliceIUT";
+}
+
+body {
+    background-color: #343a40;
+    font-family: sans-serif;
+}
+
+.bt {
+    border-bottom: 0.5px rgba(255, 255, 255, 0.3) solid;
+}
+
+
+
+/*Fin general*/
+
+@media (max-width:992px) {
+    .reseau a {
+        display: block
+    }
+
+    .reseau img {
+        max-width: 30%;
+        max-height: 30%;
+        margin: 10%
+    }
+
+    .lien a {
+        display: block;
+        margin: 5%
+    }
+    .dropdown-toggle:focus {
+        outline: none;
+    }
+    .ua img {
+        width: 20%;
+        height: auto;
+    }
+    .mbt {
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width:992px) {
+    .reseau img {
+        max-width: 20%;
+        max-height: 20%
+    }
+
+    .lien a {
+        margin: 20px
+    }
+
+    .lien {
+        padding: 2%
+    }
+    .ua img {
+        width: 10%;
+        height: auto;
+    }
+    .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+.container-fluid {
+    background-color: lightgray;
+}
+
+/* Navbar*/
+
+.dropdown-item {
+    white-space: normal;
+    color: rgba(255, 255, 255, .5);
+    font-size: 22px
+}
+
+.dropdown-item:hover {
+    color: #fff
+}
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+    border: solid rgba(255, 255, 255, .2) 1px;
+    text-align: center;
+    
+}
+
+nav .dropdown-menu {
+    min-width: 100%
+}
+
+.nav-link {
+    font-size: 20px
+}
+
+.img-responsive {
+    width: 3em;
+    height: 3em
+}
+
+/* Carte */
+
+.cardsize {
+    min-height: 100%;
+    color: #fff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover
+}
+
+.card-footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+
+footer {
+    margin-bottom: 0;
+    padding: 5%;
+    width: auto
+}
+
+footer a {
+    color: #fff
+}
+
+
+iframe /*map google*/ {
+    width: 100%;
+    height: 100%
+}
+
+
+.lien a /*Annuaire...*/{
+    color: #fff
+}
+
+.lien /*Annuaire...*/{
+    text-align: center;
+    width: 100%
+}
+
+.reseau {
+    list-style-type: none;
+    margin: auto 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    text-align: center
+}
+
+.end {
+    color: #fff;
+    text-align: center;
+    padding: 2%
+}
+
+
+/* Fin footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Couleur*/
+
+.dt-violet::after,
+.violet {
+    color: #9129ff
+}
+
+.dt-vert::after,
+.vert {
+    color: #c4ff1c
+}
+
+.dt-orange::after,
+.orange {
+    color: #f58f0a
+}
+
+.dt-rose::after,
+.rose {
+    color: #ff0dcc
+}
+
+.dt-turquoise::after,
+.turquoise {
+    color: rgb(00, 172, 154)
+}
+
+.blanc {
+    color: lightgray;
+}
+
+.brd-turquoise {
+    border: solid rgb(00, 172, 154) 3px
+}
+
+.brd-vert {
+    border: solid #c4ff1c 3px
+}
+
+.brd-orange {
+    border: solid #f58f0a 3px
+}
+
+.brd-rose {
+    border: solid #ff0dcc 3px
+}
+
+.brd-violet {
+    border: solid #9129ff 3px
+}
+
+.hpurp .dropdown-item:hover {
+    background-color: #9129ff
+}
+
+.hgreen .dropdown-item:hover {
+    background-color: #c4ff1c;
+    color: #343a40;
+}
+
+.horange .dropdown-item:hover {
+    background-color: #f58f0a
+}
+
+.hpink .dropdown-item:hover {
+    background-color: #ff0dcc
+}
+
+.hturq .dropdown-item:hover, .boutturq {
+    background-color: rgb(000, 172, 154)
+}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Métiers de l'informatique</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark ">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html"><img src="images/logoiut.png" alt="Logo iut"
+                class="img-responsive" /></a>
+
+        <!-- Boutton Navbar responsive -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar -->
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item dropdown">
+                    <!-- Onglet Navbar -->
+                    <a class="nav-link dropdown-toggle dt-violet" href="html/reseau.html" id="formation" data-toggle="dropdown">
+                        Réseau
+                    </a>
+                    <!-- Sous menu -->
+                    <div class="dropdown-menu bg-dark hpurp col-sm-6">
+                        <a class="dropdown-item bt" href="html/adminreseau.html">Administrateur Réseau</a>
+                        <a class="dropdown-item bt" href="html/architectereseau.html">Architecte Réseau</a>
+                        <a class="dropdown-item bt" href="html/reseauparcinfo.html">Gestionnaire de micro-parc informatique</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- Onglet Navbar -->
+                    <a class="nav-link dropdown-toggle dt-vert" href="html/dev.html" id="international" data-toggle="dropdown">
+                        Développement
+                    </a>
+                    <!-- Sous menu -->
+                    <div class="dropdown-menu bg-dark hgreen">
+                        <a class="dropdown-item bt" href="html/devfullstack.html">Développeur FullStack</a>
+                        <a class="dropdown-item bt" href="html/devjeuxvideo.html">Développeur de jeux vidéo</a>
+                        <a class="dropdown-item bt" href="html/devapplication.html">Développeur d'applications mobiles</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- Onglet Navbar -->
+                    <a class="nav-link dropdown-toggle dt-orange" href="html/securite.html" id="vie_a_l-iut" data-toggle="dropdown">
+                        Sécurité
+                    </a>
+                    <!-- Sous menu -->
+                    <div class="dropdown-menu bg-dark horange">
+                        <a class="dropdown-item bt" href="html/pentester.html">Pentester</a>
+                        <a class="dropdown-item bt" href="html/expertsecurite.html">Expert en sécurité informatique</a>
+                        <a class="dropdown-item bt" href="html/adminsecurite.html">Administrateur sécurité</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Contenu-->
+    <div class="container-fluid">
+        <div class="row bg-dark blanc">
+            <h1>Les métiers de l'informatique</h1>
+        </div>
+        <div class="row">
+            <div class="card-deck">
+                <div class="col-lg-4 mbt">
+                    <div class="card cardsize brd-turquoise bg-dark">
+                        <img src="images/Reseau.png" class="card-img-top" alt="reseau">
+                        <div class="card-body">
+                            <h2 class="card-title turquoise">Réseau</h2>
+                            <p class="card-text">Dans cette partie, vous trouverez différentes fiches métiers détaillées. Celles-ci auront toutes un rapport avec 
+                            tout ce qui est concerne le réseau informatique. C'est une branche de l'informatique qui permet entre autre d'échanger des informations 
+                            numériques via des terminaux ou ordinateurs interconnectés.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="html/reseau.html" class="turquoise">Plus d'informations</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mbt">
+                    <div class="card cardsize brd-vert bg-dark">
+                        <img src="images/dev.jpg" class="card-img-top" alt="developpement">
+                        <div class="card-body">
+                            <h2 class="card-title vert">Développement</h2>
+                            <p class="card-text">Aujourd'hui, nous sommes entourés de téléphones, d'ordinateurs et même de montres connectées..
+                             De plus en plus d'entreprises recherchent donc des developpeurs capables d'apporter sur un support une application, un site web, un logiciel, ect, 
+                             qui mettra en avant l'entreprise. Retrouvez donc ici différents métiers liés au developpement informatique. </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="html/dev.html" class="vert">Plus d'informations</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card cardsize brd-orange bg-dark">
+                        <img src="images/si.jpg" class="card-img-top" alt="sécurité informatique">
+                        <div class="card-body">
+                            <h2 class="card-title orange">Sécurité</h2>
+                            <p class="card-text">Dans cette section, découvrez la liste des métiers de sécurité informatique dans laquelle ceux-ci ont pour objectif de se défendre de pirates informatiques ou de concurrents trop curieux.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="html/securite.html" class="orange">Plus d'informations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="row bg-dark">
+                    <div class="col-lg-12 text-center ua">
+                <img src="images/logoUA.svg" alt="Université d'Artois" title="Université d'Artois" />
+            </div>
+            <div class="col-lg-12 end">
+                <p>© 2022 IUT de Lens - 16 Rue de l’université - 62307 LENS Cedex - FRANCE</p>
+                <p> Tel : +33 (0)3 21 79 32 32 </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

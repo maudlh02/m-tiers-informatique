@@ -1,0 +1,71 @@
+@media (min-width: 994px) {
+    .ajust {
+        padding: 6%;
+        border-radius: 0 15px 0 0;
+    }
+    .entetee, .col-lg-3 {
+        padding: 0;
+        border-bottom: none;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .entetee img {
+        border: none;
+        border-radius: 15px 0 0 0;
+    }
+
+}
+
+@media (max-width: 994px) {
+
+    .ajust {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        border-bottom: lightgray solid 3px;
+    }
+    .row {
+        border: none;
+    }
+
+
+}
+
+
+.fiche {
+    background-color: #343a40;
+    color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-size: 22px;
+} 
+
+h2 {
+    text-align: left;
+}
+
+.section {
+    width: 100%;
+    padding: 5% 0 0 5%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.entetee .dropdown-menu {
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+.entetee .dropdown-item {
+    background-color: lightgray;
+    color: black;
+   
+}
+
+.nopuce {
+    list-style-type: none;
+}
+
